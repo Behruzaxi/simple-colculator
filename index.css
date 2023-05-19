@@ -10,10 +10,12 @@ body {
     align-items: center;
     background: rgb(28, 80, 149);
     font-family: serif;
+    background: url(https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
-    border: 2px solid rgb(47, 122, 221);
     color: rgb(1944, 194, 194);
     border-radius: 10px;
     padding: 1rem;
@@ -32,6 +34,18 @@ section {
     padding: 10px 0px;
 }
 
+.n1{
+    margin-top: 80px;
+    margin-left: -500px;
+padding: 7px 70px;
+}
+
+.n2{
+    margin-top: -60px;
+    margin-left: 90px;
+    padding: 7px 70px;
+}
+
 .n{
     width: 50px;
     font-size: 30px;
@@ -46,17 +60,24 @@ section {
     border: none;
     border-radius: 5px;
     color: white;
-    margin-left: 230px;
-    margin-top: 10px;
+    margin-left: 120px;
+    margin-top: 50px;
 }
 
 #asign {
     font-style: 20px;
+    padding: 8px;
+    border-radius: 7px;
+    margin-left: -200px;
+    border: 2px solid rgb(41, 101, 149);
+    margin-top: -45px;
 }
 
 p{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
+    margin-top: -50px;
+    margin-left: 440px;
 }
 
 .getResult button {
@@ -65,4 +86,30 @@ p{
     color: navy;
     background-color: rgb(169, 255, 195);
     padding: 5px 10px;
+}
+
+@media (max-width: 575px) {
+    .container{
+        width: 90%;
+    }
+    .n1{
+        margin-top: -0px;
+        margin-left: 5px;
+    }
+    .n2{
+        margin-top: 10px;
+        margin-left: 9px;
+    }
+    #asign{
+        margin-top: 10px;
+        margin-left: 20PX;    
+    }
+    #submit{
+        font-size: 20px;
+        margin-left: 130px;
+    }
+   .resul{
+    margin-left: 0px;
+    margin-top: 5px;
+   }
 }
